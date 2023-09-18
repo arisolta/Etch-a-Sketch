@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#title{
+    margin-top: 40px;
+}
+h1{
+    margin-bottom: 15px;
+}
+
+body{
+    text-align: center;
+}
+
+.grid-square{
+    border: 1px solid black;
+}
+
+#grid-container{
+    margin: 30px auto;
+    height: 480px;
+    width: 480px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
